@@ -10,5 +10,13 @@
   "bracketSameLine": true,
   "arrowParens": "avoid",
   "vueIndentScriptAndStyle": false,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.yml",
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
 }
