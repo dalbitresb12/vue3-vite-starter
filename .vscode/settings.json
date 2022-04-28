@@ -14,7 +14,7 @@
   "javascript.referencesCodeLens.enabled": true,
   "eslint.packageManager": "npm",
   "eslint.validate": ["javascript", "javascriptreact", "vue"],
-  "[html][vue][javascript][json][jsonc][css]": {
+  "[html][vue][javascript][json][jsonc][css][markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "yaml.schemas": {
