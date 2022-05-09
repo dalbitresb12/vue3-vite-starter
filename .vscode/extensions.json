@@ -1,10 +1,9 @@
 {
   "recommendations": [
-    "johnsoncodehk.volar",
+    "Vue.volar",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "stylelint.vscode-stylelint",
     "EditorConfig.EditorConfig",
-    "redhat.vscode-yaml"
   ]
 }
