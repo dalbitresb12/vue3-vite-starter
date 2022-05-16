@@ -6,5 +6,6 @@
     "stylelint.vscode-stylelint",
     "DavidAnson.vscode-markdownlint",
     "EditorConfig.EditorConfig"
-  ]
+  ],
+  "unwantedRecommendations": ["octref.vetur"]
 }
