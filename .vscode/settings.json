@@ -10,11 +10,25 @@
   "editor.linkedEditing": true,
   "editor.suggest.preview": true,
   "editor.bracketPairColorization.enabled": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "package.json": "package-lock.json, yarn.lock",
+    ".eslintrc*": ".eslintignore, .eslintcache",
+    ".prettierrc*": ".prettierignore",
+    ".stylelintrc*": ".stylelintignore",
+    "jsconfig.json": "jsconfig.*.json",
+    "tsconfig.json": "tsconfig.*.json"
+  },
   "javascript.preferences.quoteStyle": "double",
   "javascript.referencesCodeLens.enabled": true,
   "eslint.packageManager": "npm",
-  "eslint.validate": ["javascript", "javascriptreact", "vue"],
-  "[html][vue][javascript][json][jsonc][css][markdown][yaml]": {
+  "eslint.validate": ["javascript", "vue"],
+  "[html][javascript][vue][json][jsonc][css][markdown][yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
