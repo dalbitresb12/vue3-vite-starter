@@ -1,10 +1,10 @@
-# Vue.js 3 + Vite Starter Project
+# [Vue.js 3 + Vite Starter Project](https://github.com/dalbitresb12/vue3-vite-starter)
 
-This template should help get you started developing with Vue 3 in Vite. It includes opinionated configurations for VS Code, ESLint, Stylelint, Prettier and Conventional Commits with commit hooks.
+This [template](https://github.com/dalbitresb12/vue3-vite-starter) should help get you started developing with Vue 3 in Vite. It includes opinionated configurations for VS Code, ESLint, Stylelint, Prettier and Conventional Commits with commit hooks.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [recommended extensions from workspace](.vscode/extensions.json).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=vue.volar) (and disable Vetur) + [recommended extensions from workspace](.vscode/extensions.json).
 
 ## Customize configuration
 
@@ -34,7 +34,7 @@ npm run build
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/)
+### Lint
 
 ```sh
 npm run lint
